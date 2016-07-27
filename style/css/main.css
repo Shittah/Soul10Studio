@@ -325,7 +325,9 @@ h3.spec {
 	text-align: center;
 	text-shadow: none;	
 }
-
+#slidecaption .slide-content a img{
+	max-width:400px;
+	width:30%;}
 #home-slider .slide-content {
 	font-size: 60px;
 	color: #FFFFFF;
