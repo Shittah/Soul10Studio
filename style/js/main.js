@@ -216,34 +216,34 @@ BRUSHED.contactForm = function(){
 /* ==================================================
    Twitter Feed
 ================================================== */
-
-BRUSHED.tweetFeed = function(){
-	
-	var valueTop = -64; // Margin Top Value
-	
-    $("#ticker").tweet({
-          modpath: '_include/js/twitter/',
-          username: "Bluxart", // Change this with YOUR ID
-          page: 1,
-          avatar_size: 0,
-          count: 10,
-		  template: "{text}{time}",
-		  filter: function(t){ return ! /^@\w+/.test(t.tweet_raw_text); },
-          loading_text: "loading ..."
-	}).bind("loaded", function() {
-	  var ul = $(this).find(".tweet_list");
-	  var ticker = function() {
-		setTimeout(function() {
-			ul.find('li:first').animate( {marginTop: valueTop + 'px'}, 500, 'linear', function() {
-				$(this).detach().appendTo(ul).removeAttr('style');
-			});	
-		  ticker();
-		}, 5000);
-	  };
-	  ticker();
-	});
-	
-}
+//
+//BRUSHED.tweetFeed = function(){
+//	
+//	var valueTop = -64; // Margin Top Value
+//	
+//    $("#ticker").tweet({
+//          modpath: '_include/js/twitter/',
+//          username: "Bluxart", // Change this with YOUR ID
+//          page: 1,
+//          avatar_size: 0,
+//          count: 10,
+//		  template: "{text}{time}",
+//		  filter: function(t){ return ! /^@\w+/.test(t.tweet_raw_text); },
+//          loading_text: "loading ..."
+//	}).bind("loaded", function() {
+//	  var ul = $(this).find(".tweet_list");
+//	  var ticker = function() {
+//		setTimeout(function() {
+//			ul.find('li:first').animate( {marginTop: valueTop + 'px'}, 500, 'linear', function() {
+//				$(this).detach().appendTo(ul).removeAttr('style');
+//			});	
+//		  ticker();
+//		}, 5000);
+//	  };
+//	  ticker();
+//	});
+//	
+//}
 
 
 /* ==================================================
@@ -405,7 +405,7 @@ $(document).ready(function(){
 	Modernizr.load([
 	{
 		test: Modernizr.placeholder,
-		nope: '_include/js/placeholder.js', 
+		nope: 'style/js/placeholder.js', 
 		complete : function() {
 				if (!Modernizr.placeholder) {
 						Placeholders.init({
@@ -439,7 +439,7 @@ $(document).ready(function(){
 	BRUSHED.filter();
 	BRUSHED.fancyBox();
 	BRUSHED.contactForm();
-	BRUSHED.tweetFeed();
+//	BRUSHED.tweetFeed();
 	BRUSHED.scrollToTop();
 	BRUSHED.utils();
 	BRUSHED.accordion();
