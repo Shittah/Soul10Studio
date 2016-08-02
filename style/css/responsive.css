@@ -324,6 +324,11 @@
 		font:normal 22px/50px "微软雅黑";
 	}
 	.contact-details span{
+		text-align:center;
+	}
+	
+	.contact-details span{
+		text-align:center;
 		font:normal 26px/50px "微软雅黑";}
 	#contact-form .submit {
 		width: 100%;
