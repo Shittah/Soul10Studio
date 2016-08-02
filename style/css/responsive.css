@@ -320,9 +320,11 @@
 	.contact-details {
 		border-top: 1px dashed #3C3F45;
 		padding-top: 30px;
-		text-align: center;	
+		text-align: center;
+		font:normal 22px/50px "微软雅黑";
 	}
-	
+	.contact-details span{
+		font:normal 26px/50px "微软雅黑";}
 	#contact-form .submit {
 		width: 100%;
 		-webkit-box-sizing: border-box;
@@ -396,7 +398,6 @@
   	only screen and (min-resolution: 2dppx) {
 		
 		header #logo a {
-			background-image: url(../img/logo_@2x.png);
 			background-size: 96px 30px;
 		}
 		

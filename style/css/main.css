@@ -205,7 +205,7 @@ h6{
 	margin:0 0 20px 0;
 	color:#FFFFFF;
 	font-weight:300;
-	font-family: 'Titillium Web', sans-serif;
+	font-family: "微软雅黑","宋体";
 	line-height:1.5em;
 }
 
@@ -505,12 +505,12 @@ header #logo {
 }
 
 header #logo a {
-	background: url(../img/logo.png) no-repeat;
 	width: 96px;
 	height: 30px;
-	text-indent: -9999px;
 	display: block;
+	font:normal 22px "微软雅黑" ;
 	opacity: 1;
+	color:#fff;
 	filter: alpha(opacity=100);
 	
 	-webkit-transition: opacity 0.25s ease-in-out 0s;	
@@ -896,27 +896,23 @@ nav#menu #menu-nav li a:hover {
    Contact Section
 ================================================== */
 
-.contact-details h3 {
-	color: #FFFFFF;
-    font-size: 24px;
-    font-weight: 300;
-    margin-bottom: 30px;
-	line-height: 1em;
-    text-transform: uppercase;
+.contact-details {
+	text-align:center;
+	font:normal 24px/50px "微软雅黑";
 }
-
-.contact-details ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;	
-}
-
-.contact-details ul li {
-	margin: 0 0 20px;
-	line-height: 28px;
-	padding: 0;	
-}
-
+.contact-details em{
+	display:inline-block;
+	font-style:normal;
+	width:130px;
+	text-align:right;}
+.contact-details span{
+	color:#FFF6BF;
+	font-size:30px;
+	display:inline-block;
+	font-style:normal;
+	width:220px;
+	text-align:left;
+	}
 #contact-form {
 	margin-bottom: 0;	
 }
