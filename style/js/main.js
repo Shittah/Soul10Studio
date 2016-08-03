@@ -77,8 +77,8 @@ BRUSHED.slider = function(){
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
-											{image : 'http://ww4.sinaimg.cn/large/c3242183gw1exr8ckyebyj20qo0zktir.jpg', title : '<div class="slide-content"><a href="#logothis"><img src="style/img/logo.jpg"/></a></div>', thumb : '', url : '#logothis'},
-											{image : 'http://ww1.sinaimg.cn/large/62878f68jw1f2x53i1o77j20jg0cyad6.jpg', title : '<div class="slide-content"><a href="#logothis"><img src="style/img/logo.jpg"/></a></div>', thumb : '', url : '#logothis'}  
+											{image : 'http://ww4.sinaimg.cn/large/c3242183gw1exr8ckyebyj20qo0zktir.jpg', title : '<div class="slide-content"><a href="#logothis"><img src="http://ww4.sinaimg.cn/large/bba65dbajw1f6h0mmp14nj20b40b40te.jpg"/></a></div>', thumb : '', url : '#logothis'},
+											{image : 'http://ww1.sinaimg.cn/large/62878f68jw1f2x53i1o77j20jg0cyad6.jpg', title : '<div class="slide-content"><a href="#logothis"><img src="http://ww4.sinaimg.cn/large/bba65dbajw1f6h0mmp14nj20b40b40te.jpg"/></a></div>', thumb : '', url : '#logothis'}  
 									],
 									
 		// Theme Options			   
