@@ -1,4 +1,11 @@
+.image-wrap .Avatar{
+	display:inline-block;
+	width:21%;
+	margin:0 1%}
+
+
 @media (min-width: 768px) and (max-width: 979px) {
+
 	#menu {
 		display: none;	
 	}
@@ -47,6 +54,10 @@
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
+		.image-wrap .Avatar{
+		width:47%;
+		margin-bottom:3%;
+	}
 	#back-to-top {
 		display: none !important;	
 	}
@@ -203,6 +214,10 @@
 }
 
 @media (max-width: 480px) {
+		.image-wrap .Avatar{
+		width:80%;
+		margin-bottom:3%;
+	}
 	#back-to-top {
 		display: none !important;	
 	}

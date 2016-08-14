@@ -47,6 +47,7 @@
 <!-- Supersized -->
 <link href="style/css/supersized.css" rel="stylesheet">
 <link href="style/css/supersized.shutter.css" rel="stylesheet">
+<link rel="stylesheet" href="style/css/jquery.mCustomScrollbar.min.css" />
 
 <!-- Google Font -->
 <!--<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>-->
@@ -123,9 +124,9 @@
           <ul id="filters" class="option-set" data-option-key="filter">
             <li class="type-work"></li>
             <li><a href="#filter" data-option-value="*" class="selected">全部设计案例</a></li>
-            <li><a href="#filter" data-option-value=".design">界面UI</a></li>
-            <li><a href="#filter" data-option-value=".photography">电商淘宝</a></li>
-            <li><a href="#filter" data-option-value=".video">品牌平面</a></li>
+            <li><a href="#filter" data-option-value=".uis10">界面UI</a></li>
+            <li><a href="#filter" data-option-value=".tbs10">电商淘宝</a></li>
+            <li><a href="#filter" data-option-value=".vis10">品牌平面</a></li>
           </ul>
         </nav>
         <!-- End Filter --> 
@@ -136,76 +137,121 @@
             <ul id="thumbs">
               
               <!-- Item Project and Filter Name -->
-              <li class="item-thumbs span3 design"> 
+              <li class="item-thumbs span3 uis10"> 
                 <!-- Fancybox - Gallery Enabled - Title - Full Image --> 
-                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The City" href="style/img/work/full/image-01-full.jpg"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
+                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="农皇网首页设计" href="http://ww2.sinaimg.cn/large/bba65dbajw1f6sf4977g9j212w2f5h3o.jpg"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
                 <!-- Thumb Image and Description --> 
-                <img src="style/img/work/thumbs/image-01.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis."> </li>
+                <img src="http://ww2.sinaimg.cn/thumb300/bba65dbajw1f6sf4977g9j212w2f5h3o.jpg" alt=" "> </li>
               <!-- End Item Project --> 
               
               <!-- Item Project and Filter Name -->
-              <li class="item-thumbs span3 design"> 
+              <li class="item-thumbs span3 tbs10"> 
                 <!-- Fancybox - Gallery Enabled - Title - Full Image --> 
-                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Office" href="style/img/work/full/image-02-full.jpg"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
+                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="项链详情页设计" href="http://ww4.sinaimg.cn/large/bba65dbajw1f6l7idqje4j20ku9q0hdu.jpg"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
                 <!-- Thumb Image and Description --> 
-                <img src="style/img/work/thumbs/image-02.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis."> </li>
+                <img src="http://ww4.sinaimg.cn/thumb300/bba65dbajw1f6l7idqje4j20ku9q0hdu.jpg" alt=""> </li>
               <!-- End Item Project --> 
-              
-              <!-- Item Project and Filter Name -->
-              <li class="item-thumbs span3 photography"> 
+              <li class="item-thumbs span3 uis10"> 
                 <!-- Fancybox - Gallery Enabled - Title - Full Image --> 
-                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Mountains" href="style/img/work/full/image-03-full.jpg"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
+                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="智淘淘首页设计" href="http://ww1.sinaimg.cn/large/bba65dbajw1f6s9065lncj20mm1u5dq5.jpg"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
                 <!-- Thumb Image and Description --> 
-                <img src="style/img/work/thumbs/image-03.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis."> </li>
-              <!-- End Item Project --> 
-              
+                <img src="http://ww1.sinaimg.cn/thumb300/bba65dbajw1f6s9065lncj20mm1u5dq5.jpg" alt=" "> </li>
               <!-- Item Project and Filter Name -->
-              <li class="item-thumbs span3 video"> 
+              <li class="item-thumbs span3 vis10"> 
+                <!-- Fancybox - Gallery Enabled - Title - Full Image --> 
+                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="会员卡设计" href="http://ww3.sinaimg.cn/large/bba65dbajw1f6lmjhe64fj20mi0ew7bj.jpg"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
+                <!-- Thumb Image and Description --> 
+                <img src="http://ww3.sinaimg.cn/thumb300/bba65dbajw1f6lmjhe64fj20mi0ew7bj.jpg" alt=""> </li> 
+                <li class="item-thumbs span3 uis10"> 
+                <!-- Fancybox - Gallery Enabled - Title - Full Image --> 
+                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="App登录界面设计" href="http://ww2.sinaimg.cn/large/bba65dbajw1f6tl51x42vj20b90k0wgf.jpg"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
+                <!-- Thumb Image and Description --> 
+                <img src="http://ww2.sinaimg.cn/thumb300/bba65dbajw1f6tl51x42vj20b90k0wgf.jpg" alt=""> </li>
+              <!-- End Item Project --> 
+                <li class="item-thumbs span3 vis10"> 
+                <!-- Fancybox - Gallery Enabled - Title - Full Image --> 
+                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="茶叶包装设计" href="http://ww2.sinaimg.cn/large/bba65dbajw1f6setl0140j20og0t4tbi.jpg"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
+                <!-- Thumb Image and Description --> 
+                <img src="http://ww2.sinaimg.cn/thumb300/bba65dbajw1f6setl0140j20og0t4tbi.jpg" alt=""> </li>
+                 <li class="item-thumbs span3 uis10"> 
+                <!-- Fancybox - Gallery Enabled - Title - Full Image --> 
+                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="App UI设计" href="http://ww4.sinaimg.cn/large/bba65dbajw1f6s8fumfz3j20ku112adw.jpg"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
+                <!-- Thumb Image and Description --> 
+                <img src="http://ww4.sinaimg.cn/thumb300/bba65dbajw1f6s8fumfz3j20ku112adw.jpg" alt=""> </li>
+                <li class="item-thumbs span3 uis10"> 
+                <!-- Fancybox - Gallery Enabled - Title - Full Image --> 
+                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Web ui" href="http://ww4.sinaimg.cn/large/bba65dbajw1f6j5jy7g3lj20rs2sfh38.jpg"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
+                <!-- Thumb Image and Description --> 
+                <img src="http://ww4.sinaimg.cn/thumb300/bba65dbajw1f6j5jy7g3lj20rs2sfh38.jpg" alt=" "> </li>
+                <li class="item-thumbs span3 tbs10"> 
+                <!-- Fancybox - Gallery Enabled - Title - Full Image --> 
+                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="营养品详情页设计" href="http://ww2.sinaimg.cn/large/bba65dbajw1f6se5sql0gj20i25f27wh.jpg"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
+                <!-- Thumb Image and Description --> 
+                <img src="http://ww2.sinaimg.cn/thumb300/bba65dbajw1f6se5sql0gj20i25f27wh.jpg" alt=""> </li>
+                
+                <li class="item-thumbs span3 tbs10"> 
+                <!-- Fancybox - Gallery Enabled - Title - Full Image --> 
+                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="电商类广告banner设计" href="http://ww2.sinaimg.cn/large/bba65dbajw1f6se5njx3sj20xc22bqqv.jpg"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
+                <!-- Thumb Image and Description --> 
+                <img src="http://ww2.sinaimg.cn/thumb300/bba65dbajw1f6se5njx3sj20xc22bqqv.jpg" alt=""> </li>
+                
+                <li class="item-thumbs span3 uis10"> 
+                <!-- Fancybox - Gallery Enabled - Title - Full Image --> 
+                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="基因科技企业首页设计" href="http://ww2.sinaimg.cn/large/bba65dbajw1f6tl55pmdkj212w1qzqey.jpg"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
+                <!-- Thumb Image and Description --> 
+                <img src="http://ww2.sinaimg.cn/thumb300/bba65dbajw1f6tl55pmdkj212w1qzqey.jpg" alt=""> </li>
+                
+              <!-- Item Project and Filter Name -->
+              <li class="item-thumbs span3 vis10"> 
                 <!-- Fancybox Media - Gallery Enabled - Title - Link to Video --> 
-                <a class="hover-wrap fancybox-media" data-fancybox-group="video" title="Video Content From Vimeo" href="http://vimeo.com/51460511"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
+                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="商务名片设计" href="http://ww1.sinaimg.cn/large/bba65dbajw1f6lmjli8ebj20ly0cdgnv.jpg"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
                 <!-- Thumb Image and Description --> 
-                <img src="style/img/work/thumbs/image-08.jpg" alt="Video"> </li>
+                <img src="http://ww1.sinaimg.cn/thumb300/bba65dbajw1f6lmjli8ebj20ly0cdgnv.jpg" alt=""> </li>
               <!-- End Item Project --> 
-              
-              <!-- Item Project and Filter Name -->
-              <li class="item-thumbs span3 photography"> 
+              <li class="item-thumbs span3 uis10"> 
                 <!-- Fancybox - Gallery Enabled - Title - Full Image --> 
-                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Sea" href="style/img/work/full/image-04-full.jpg"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
+                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="App UI设计" href="http://ww2.sinaimg.cn/large/bba65dbajw1f6s8fvjb8qj20k00zk0xy.jpg"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
                 <!-- Thumb Image and Description --> 
-                <img src="style/img/work/thumbs/image-04.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis."> </li>
-              <!-- End Item Project --> 
-              
+                <img src="http://ww2.sinaimg.cn/thumb300/bba65dbajw1f6s8fvjb8qj20k00zk0xy.jpg" alt=""> </li>
               <!-- Item Project and Filter Name -->
-              <li class="item-thumbs span3 photography"> 
+              <li class="item-thumbs span3 vis10"> 
                 <!-- Fancybox - Gallery Enabled - Title - Full Image --> 
-                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Clouds" href="style/img/work/full/image-05-full.jpg"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
+                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="简约中式名片设计" href="http://ww4.sinaimg.cn/large/bba65dbajw1f6lmjt5lwhj20an0hjq5f.jpg"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
                 <!-- Thumb Image and Description --> 
-                <img src="style/img/work/thumbs/image-05.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis."> </li>
+                <img src="http://ww4.sinaimg.cn/thumb300/bba65dbajw1f6lmjt5lwhj20an0hjq5f.jpg" alt=""> </li>
               <!-- End Item Project --> 
-              
-              <!-- Item Project and Filter Name -->
-              <li class="item-thumbs span3 video"> 
-                <!-- Fancybox Media - Gallery Enabled - Title - Link to Video --> 
-                <a class="hover-wrap fancybox-media" data-fancybox-group="video" title="Video Content From Vimeo" href="http://vimeo.com/50834315"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
-                <!-- Thumb Image and Description --> 
-                <img src="style/img/work/thumbs/image-09.jpg" alt="Video"> </li>
-              <!-- End Item Project --> 
-              
-              <!-- Item Project and Filter Name -->
-              <li class="item-thumbs span3 design"> 
+             <li class="item-thumbs span3 tbs10"> 
                 <!-- Fancybox - Gallery Enabled - Title - Full Image --> 
-                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Dark" href="style/img/work/full/image-06-full.jpg"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
+                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="奶粉淘宝详情页" href="http://ww3.sinaimg.cn/large/bba65dbajw1f6nm1ttwxhj20ku9y2b2a.jpg"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
                 <!-- Thumb Image and Description --> 
-                <img src="style/img/work/thumbs/image-06.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis."> </li>
-              <!-- End Item Project --> 
-              
-              <!-- Item Project and Filter Name -->
-              <li class="item-thumbs span3 design"> 
+                <img src="http://ww4.sinaimg.cn/thumb300/bba65dbajw1f6nm740e9sj20ku0ttjwz.jpg" alt=""> </li> 
+                <li class="item-thumbs span3 uis10"> 
                 <!-- Fancybox - Gallery Enabled - Title - Full Image --> 
-                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Beach" href="style/img/work/full/image-07-full.jpg"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
+                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="APPui 设计" href="http://ww1.sinaimg.cn/large/bba65dbajw1f6s8fz4wcqj208w0fs0ti.jpg"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
                 <!-- Thumb Image and Description --> 
-                <img src="style/img/work/thumbs/image-07.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis."> </li>
+                <img src="http://ww1.sinaimg.cn/thumb300/bba65dbajw1f6s8fz4wcqj208w0fs0ti.jpg" alt=""> </li>
+                <li class="item-thumbs span3 vis10"> 
+                <!-- Fancybox - Gallery Enabled - Title - Full Image --> 
+                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="普洱包装设计" href="http://ww2.sinaimg.cn/large/bba65dbajw1f6setke9akj20og0n8jvq.jpg"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
+                <!-- Thumb Image and Description --> 
+                <img src="http://ww2.sinaimg.cn/thumb300/bba65dbajw1f6setke9akj20og0n8jvq.jpg" alt=""> </li>
+                <li class="item-thumbs span3 uis10"> 
+                <!-- Fancybox - Gallery Enabled - Title - Full Image --> 
+                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="APPui 设计" href="http://ww1.sinaimg.cn/large/bba65dbajw1f6s8fy9r8xj20hs0vkadf.jpg"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
+                <!-- Thumb Image and Description --> 
+                <img src="http://ww1.sinaimg.cn/thumb300/bba65dbajw1f6s8fy9r8xj20hs0vkadf.jpg" alt=""> </li>
+                
+                <li class="item-thumbs span3 tbs10"> 
+                <!-- Fancybox - Gallery Enabled - Title - Full Image --> 
+                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="APPui 设计" href="http://ww1.sinaimg.cn/large/bba65dbajw1f6se5qhyeoj21hc3nk4qp.jpg"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
+                <!-- Thumb Image and Description --> 
+                <img src="http://ww3.sinaimg.cn/thumb300/bba65dbajw1f6se7rboqlj21hc19w12m.jpg" alt=""> </li>
               <!-- End Item Project -->
+              <li class="item-thumbs span3 vis10"> 
+                <!-- Fancybox - Gallery Enabled - Title - Full Image --> 
+                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="宣传海报设计" href="http://ww3.sinaimg.cn/large/bba65dbajw1f6sekztdqpj20jp0q9gtb.jpg"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
+                <!-- Thumb Image and Description --> 
+                <img src="http://ww3.sinaimg.cn/thumb300/bba65dbajw1f6sekztdqpj20jp0q9gtb.jpg" alt=""> </li>
             </ul>
           </section>
         </div>
@@ -223,8 +269,8 @@
     <div class="row">
       <div class="span12">
         <div class="title-page">
-          <h2 class="title">About Us</h2>
-          <h3 class="title-description">Learn About our Team &amp; Culture.</h3>
+          <h2 class="title">关于我们</h2>
+          <h3 class="title-description">专业的设计 专心的服务</h3>
         </div>
       </div>
     </div>
@@ -232,59 +278,16 @@
     
     <!-- People -->
     <div class="row"> 
-      
       <!-- Start Profile -->
-      <div class="span4 profile">
-        <div class="image-wrap">
-          <div class="hover-wrap"> <span class="overlay-img"></span> <span class="overlay-text-thumb">CTO/Founder</span> </div>
-          <img src="style/img/profile/profile-01.jpg" alt="John Doe"> </div>
-        <h3 class="profile-name">John Doe</h3>
-        <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
-          Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-        <div class="social">
-          <ul class="social-icons">
-            <li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
-            <li><a href="#"><i class="font-icon-social-dribbble"></i></a></li>
-            <li><a href="#"><i class="font-icon-social-facebook"></i></a></li>
-          </ul>
-        </div>
-      </div>
-      <!-- End Profile --> 
+ 
       
-      <!-- Start Profile -->
-      <div class="span4 profile">
-        <div class="image-wrap">
-          <div class="hover-wrap"> <span class="overlay-img"></span> <span class="overlay-text-thumb">Creative Director</span> </div>
-          <img src="style/img/profile/profile-02.jpg" alt="Jane Helf"> </div>
-        <h3 class="profile-name">Jane Helf</h3>
-        <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
-          Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-        <div class="social">
-          <ul class="social-icons">
-            <li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
-            <li><a href="#"><i class="font-icon-social-email"></i></a></li>
-          </ul>
-        </div>
-      </div>
-      <!-- End Profile --> 
+      <div class="image-wrap">
+          <img class="Avatar" src="http://ww4.sinaimg.cn/large/bba65dbajw1f6nnmicydyj20g40g4q51.jpg" alt="">
+          <img class="Avatar"  src="http://ww4.sinaimg.cn/large/bba65dbajw1f6nnmjqsvnj20g40g4gnj.jpg" alt="">
+          <img class="Avatar"  src="http://ww2.sinaimg.cn/large/bba65dbajw1f6nnmj499xj20g40g4tay.jpg" alt="">          
+          <img class="Avatar"  src="http://ww2.sinaimg.cn/large/bba65dbajw1f6nnmkl8ccj20g40g40u3.jpg" alt=""></div>
       
-      <!-- Start Profile -->
-      <div class="span4 profile">
-        <div class="image-wrap">
-          <div class="hover-wrap"> <span class="overlay-img"></span> <span class="overlay-text-thumb">Lead Designer</span> </div>
-          <img src="style/img/profile/profile-03.jpg" alt="Joshua Insanus"> </div>
-        <h3 class="profile-name">Joshua Insanus</h3>
-        <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
-          Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-        <div class="social">
-          <ul class="social-icons">
-            <li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
-            <li><a href="#"><i class="font-icon-social-linkedin"></i></a></li>
-            <li><a href="#"><i class="font-icon-social-google-plus"></i></a></li>
-            <li><a href="#"><i class="font-icon-social-vimeo"></i></a></li>
-          </ul>
-        </div>
-      </div>
+      <p class="profile-description">深耕设计领域多年，无论您需要什么样的设计，总有一群灵感爆棚，创意无限的年轻设计师为您服务，无需过多的言语，我们希望用专业的设计和专心的服务与您的灵魂交流</p>
       <!-- End Profile --> 
       
     </div>
@@ -312,7 +315,7 @@
       <p class="contact-details">
       <em>QQ/微信:</em> <span>64929953</span><br>
        <em> 电 话:</em> <span>18149085967</span><br>
-       <em> 邮 件:</em> <span>beima6550@qq.com</span><br>
+       <em> 邮 件:</em> <span>soul10cn@sina.cn</span><br>
       </p>
     </div>
     <!-- End Contact Form --> 
@@ -370,6 +373,8 @@
 <!--<script src="style/js/jquery.tweet.js"></script>--> <!-- Tweet --> 
 <script src="style/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi --> 
 <script src="style/js/main.js"></script> <!-- Default JS --> 
+<script src="style/js/jquery.mCustomScrollbar.concat.min.js"></script>
+
 <!-- End Js -->
 
 </body>

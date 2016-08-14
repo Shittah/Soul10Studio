@@ -783,7 +783,8 @@ nav#menu #menu-nav li a:hover {
 }
 
 .profile-description {
-	margin-bottom: 25px;	
+	margin:0 auto;
+	width:88%;
 }
 
 .image-wrap {
@@ -791,6 +792,7 @@ nav#menu #menu-nav li a:hover {
 	overflow: hidden;
 	margin-bottom: 25px;
 	cursor: pointer;
+	text-align:center;
 }
 
 .image-wrap img {
@@ -1135,7 +1137,7 @@ footer {
 
 footer .credits {
 	color: #FFFFFF;
-	font-size: 13px;
+	font-size: 16px;
 	margin-bottom: 0;
 	padding: 20px 0;
 	text-transform: uppercase;	
