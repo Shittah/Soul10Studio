@@ -1,0 +1,288 @@
+/*	Less Framework 4
+	http://lessframework.com
+	by Joni Korpi
+	License: http://opensource.org/licenses/mit-license.php	*/
+/*	
+
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+/* Vars ----------------------------------------------------*//* Mixins ----------------------------------------------------*/#comboNav {
+  display: none;
+}
+.wrapper {
+  width: 1200px;
+}
+/* CAROUSEL Default ----------------------------------------------------*/#ch-holder {
+  display: block;
+}
+#cv-holder {
+  display: none;
+}
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+	.info{
+		width:40%}
+  /* GENERAL TABLET ----------------------------------------------------*/.wrapper {
+    width: 712px;
+  }
+  /* NAV TABLET ----------------------------------------------------*/#nav {
+    display: block;
+  }
+  #comboNav {
+    display: none;
+  }
+  /* CAROUSEL TABLET ----------------------------------------------------*/#ch-holder {
+    display: block;
+  }
+  #cv-holder {
+    display: none;
+  }
+  /* SLIDER TABLET ----------------------------------------------------*/.lof-slidecontent,
+  .main-slider-content {
+    width: 712px;
+    height: 367px;
+  }
+  .lof-slidecontent .sliders-wrapper,
+  .main-slider-content .sliders-wrapper {
+    width: 712px;
+  }
+  .lof-slidecontent .navigator-content .button-next,
+  .main-slider-content .navigator-content .button-next,
+  .lof-slidecontent .navigator-content .button-previous,
+  .main-slider-content .navigator-content .button-previous,
+  .lof-slidecontent .navigator-content .button-control,
+  .main-slider-content .navigator-content .button-control {
+    opacity: 1;
+    bottom: 0px;
+    left: 0px;
+    z-index: 199;
+  }
+  .lof-slidecontent .navigator-content .button-next,
+  .main-slider-content .navigator-content .button-next {
+    left: 682px;
+  }
+  .lof-slidecontent .navigator-wrap-inner,
+  .main-slider-content .navigator-wrap-inner {
+    display: none;
+  }
+  .lof-slidecontent .navigator-wrapper,
+  .main-slider-content .navigator-wrapper {
+    width: 712px;
+  }
+  /* FILTERED ITEMS TABLET ----------------------------------------------------*/#filter-container {
+    width: 732px;
+    /* 712 + 20 gap */
+  }
+  #filter-container figure {
+    width: 340px;
+    margin:0 10px 22px;
+  }
+  /* CAROUSEL TABLET ----------------------------------------------------*/.jcarousel-skin-folder .jcarousel-container-horizontal {
+    width: 585px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 63px;
+    padding-right: 63px;
+  }
+  .jcarousel-skin-folder .jcarousel-clip-horizontal {
+    width: 585px;
+    height: 100px;
+  }
+  .jcarousel-skin-folder .jcarousel-item {
+    width: 195px;
+    height: 100px;
+  }
+  .jcarousel-skin-folder .jcarousel-prev-horizontal,
+  .jcarousel-skin-folder .jcarousel-next-horizontal {
+    width: 63px;
+    height: 100px;
+  }
+  /*  PAGE TABLET----------------------------------------------------*/#page-content-sb {
+    width: 460px;
+    margin-right: 60px;
+  }
+
+  /* SIDEBAR TABLET ------------------------------------------------------------*/
+  #sidebar {
+    width: 184px;
+    margin-top: 30px;
+  }
+ 
+  /* RELATED PROJECTS TABLET ---------------------------------------------------*/
+  .related-projects figure {
+    margin-right: 24px;
+    width: 160px;
+  }
+  .related-projects figure .thumb {
+    width: 160px;
+  }
+  /* WIDGET COLS TABLET ----------------------------------------------------*/.widget-cols > li {
+    width: 160px;
+    margin-right: 24px;
+  }
+}
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+@media only screen and (max-width: 767px) {
+	.info{
+		width:90%;}
+.topbar{
+	background:none}
+	#work{
+		padding-top:18px;}
+  .wrapper {
+    width: 350px;
+  }
+  /* LOGO MOBILE ----------------------------------------------------*/
+  .topbar #logo {
+	display:none 
+  }
+  #logo a {
+
+  }
+  #logo img {
+    display: block;
+    margin: 0 auto;
+  }
+  .bannerpic{
+	  height:270px;
+	background-size:1200px auto;
+	}
+	.bannerpic img {
+    margin-left: -519px;
+    height: 100%;
+	width:auto
+}
+  /* NAV MOBILE ----------------------------------------------------*/
+  #nav {
+	  float:none;
+	  margin:0 auto;
+	  background:#6C588A;
+  }
+   #nav > li{
+	   margin-left:14px;
+	   margin-right:14px;}
+  #nav > li > a{
+	  line-height:44px;}
+  #nav > .oldart{
+	display:none}
+  #comboNav {
+    display: block;
+  }
+  /* HEADLINE MOBILE ----------------------------------------------------*/#headline {
+    font-size: 36px;
+  }
+  /* CAROUSEL MOBILE ----------------------------------------------------*/#ch-holder {
+    display: none;
+  }
+  #cv-holder {
+    display: block;
+  }
+  .carousel-holder .carousel-heading span {
+    margin: 0px 0px 22px 0px;
+  }
+  /* SLIDER MOBILE ----------------------------------------------------*/.lof-slidecontent {
+    width: 92%;
+    height: 367px;
+  }
+  .main-slider-content {
+    width: 100%;
+    height: 367px;
+  }
+  .lof-slidecontent .sliders-wrapper,
+  .main-slider-content .sliders-wrapper {
+    width:100% !important;
+  }
+  .sliders-wrapper li img{
+	  position:relative;
+	  left:-400px;
+	  width:100% !important;
+	  }
+ 
+  
+  .lof-slidecontent .navigator-content .button-previous,
+  .main-slider-content .navigator-content .button-previous,
+  .lof-slidecontent .navigator-content .button-control,
+  .main-slider-content .navigator-content .button-control {
+    opacity: 1;
+    bottom: 0px;
+    left: 0px;
+    z-index: 199;
+  }
+  .lof-slidecontent .navigator-content .button-next,
+  .main-slider-content .navigator-content .button-next {
+    right:0;bottom: 0px; z-index:199;opacity:1
+  }
+  .lof-slidecontent .navigator-wrap-inner,
+  .main-slider-content .navigator-wrap-inner {
+    display: none;
+  }
+  .lof-slidecontent .navigator-content{
+	  bottom:-30px;}
+  .lof-slidecontent .navigator-wrapper,
+  .main-slider-content .navigator-wrapper {
+    width:100% !important;
+  }
+  .lof-slidecontent .slider-description,
+  .main-slider-content .slider-description {
+    top: 0px;
+    left: 0px;
+    width: 232px;
+    height: 100%;
+  }
+  /* Description MOBILE ----------------------------------------------------*/.main-slider-content:hover .slider-description {
+    opacity: 1;
+  }
+  /* FILTERED ITEMS MOBILE ----------------------------------------------------*/#filter-container {
+    width: 350px;
+    /* 712 + 20 gap */
+  
+  }
+  #filter-container figure {
+    width: 350px;
+    margin-right: 0px;
+	margin-left:0
+  }
+  #filter-container figure figcaption .heading {
+    font-size: 28px;
+  }
+  /*  PAGE MOBILE ----------------------------------------------------*/#page-content-sb {
+    width: 252px;
+    margin-right: 0px;
+  }
+ 
+  /* SIDEBAR MOBILE ------------------------------------------------------------*/
+  #sidebar {
+    width: 252px;
+    margin-top: 30px;
+  }
+  
+
+  /* WIDGET COLS MOBILE ----------------------------------------------------*/.widget-cols > li {
+    width: 252px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  .widget-cols > li:last-child {
+    border-bottom: none;
+    padding-bottom: 0px;
+  }
+}
