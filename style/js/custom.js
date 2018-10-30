@@ -84,7 +84,7 @@ jQuery(document).ready(function($) {
 	$container.imagesLoaded( function(){
 		$container.isotope({
 			itemSelector : 'figure',
-			filter: '.vis10',
+			filter: '.uis10',
 			resizable: false,
 			animationEngine: 'jquery'
 		});
